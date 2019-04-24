@@ -32,6 +32,8 @@ public:
     State get_cellState() const{
         return cellState;
     };
+
+    unsigned int numNeighbors();
 };
 
 #endif
